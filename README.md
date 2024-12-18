@@ -1,4 +1,4 @@
-# Implement place order functionality for an e-commerce platform
+# Implement place GiftCard functionality for an e-commerce platform
 
 ## Problem Statement
 
@@ -10,6 +10,7 @@ You are building an e-commerce platform. As a part of this system, you need to e
      * User id for whom the gift card is being created.
      * Amount for which the gift card is being created.
      * Expiry date of the gift card.
+     * GiftCard will have 10 byte Alphanumeric value- Created using UUID.
      * We will keep a Ledger of entries done on the Gift card. Like Creation of giftcard is Credit and Redemption of gift card is Debit.
    
 2. Redeem Gift Card functionality
